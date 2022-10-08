@@ -1,15 +1,18 @@
-
+import firstImage from '../src/image/imag.jpg'
 import './App.css';
 
 function App() {
   return (
     <div>
-    <div className="header">
-    <div className="header-size">
+      <div>
+        <div className="header">
+          <div className="header-size">
+            <img src={firstImage} />
             <h2>The Smart Traveller</h2>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-</div>
   );
 }
 

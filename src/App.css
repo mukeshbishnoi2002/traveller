@@ -13,6 +13,10 @@
   color: #00754A;
 }
 @media screen and (max-width:500px){
+  .header-size img{
+      width: 45px;
+      height: 45px;
+  }
   .header-size h2{
       font-size: 18px;
   }
