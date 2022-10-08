@@ -1,0 +1,139 @@
+.main11{
+    width: 100%;
+}
+.background111{
+    background-image: url("../src/images/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    height: 100vh; 
+    align-items: center;
+}
+.first_div11{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.first_div11_column button{
+border-radius: 30px;
+background-color: #00754A;
+color: white;
+width: 70%;
+}
+.second_div22{
+    display: flex;
+    justify-content: center;
+    color: white; 
+    box-sizing: border-box;
+}
+.second_div22_column{
+    border: 1px solid rgb(27, 26, 26);
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.second_div22_column p{
+            margin: 20px auto;
+            border-bottom: 1px solid white;
+            width: 130px;
+}
+.second_div22_column input{
+    padding: 7px;
+    border-radius:10px;
+    border:0;
+    margin:8px 0;
+}
+.second_div22_column select,button{
+    padding: 7px;
+    border-radius:10px;
+    border:0;
+    margin:8px 0;
+}
+.second_div22_column button{
+    border-radius:30px;
+    background-color: #00754A;
+    color: white;
+    margin:8px 0;
+} 
+.first_div11_colum h2{
+    font-size: 40px;
+}
+@media screen and (max-width:768px){
+    .grid{
+        width: 80%;
+        display: grid;
+      grid-template-columns: 1fr;
+        margin: auto;
+        height: auto;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    }
+    .second_div22_column{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        padding: 15px 40px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    .first_div11{
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .first_div11_colum h2{
+        font-size: 30px;
+    }
+    .first_div11_colum p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .grid{
+        width: 80%;
+        display: grid;
+      grid-template-columns: 1fr;
+        margin: auto;
+        height: auto;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    }
+    .second_div22_column{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        padding: 0px 5px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    .first_div11_column button {
+       font-size: 16px;
+        width: 100%;
+    }
+}
