@@ -4,7 +4,7 @@
     padding: 20px 0px;
 }
 .main_size{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
@@ -60,19 +60,20 @@
 @media screen and (max-width:500px){
     .main_box{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
     }
     .main_size h2{
         font-weight: 300;
         font-size: 19px;
-        padding: 12px;
+        padding: 0px;
 }
 .one img{
     width: 25px;
     height: 25px;
-    margin: 10px;
+    margin: 5px 0px 0px 0px;
 }
+
 .one h4{
     font-size: 11px;
 }
