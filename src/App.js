@@ -6,6 +6,7 @@ import FreeQuotes from './FreeQuotes';
 import Home from './Home';
 import Nextpage from './Nextpage';
 import Slider from './Slider';
+import Smart from './Smart';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </div>
       </div>
       <Home />
+      <Smart />
       <Nextpage />
       <Explore />
       <Client />
