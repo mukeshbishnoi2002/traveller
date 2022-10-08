@@ -80,4 +80,7 @@
 .one p{
     font-size: 9px;
 }
+.one {
+  margin-bottom: 5px;
+}
 }
