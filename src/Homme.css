@@ -2,7 +2,7 @@
     width: 100%;
 }
 .background111{
-    background-image: url("../src/images/background.png");
+    background-image: url("../src/image/background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
