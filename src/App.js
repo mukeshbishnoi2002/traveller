@@ -1,7 +1,10 @@
 import firstImage from '../src/image/imag.png'
 import './App.css';
+import Client from './Client';
+import Explore from './Explore';
 import Home from './Home';
 import Nextpage from './Nextpage';
+import Slider from './Slider';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       </div>
       <Home />
       <Nextpage />
+      <Explore />
+      <Client />
+      <Slider />
     </div>
   );
 }

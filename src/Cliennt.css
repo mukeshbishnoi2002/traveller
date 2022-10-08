@@ -1,0 +1,22 @@
+.client{
+    width: 100%;
+    display: none;
+    padding: 25px 0px;
+}
+.client-size{ 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+@media screen and (max-width:768px){
+    .client{
+        display: block;
+    }
+}
+@media screen and (max-width:500px){
+    .client-size h2{
+     
+        font-size: 21px;
+    }
+}

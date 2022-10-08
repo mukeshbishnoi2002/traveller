@@ -1,0 +1,28 @@
+.explore{
+    width: 100%;
+}
+.explore-resize{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    font-size: 18px;
+}
+.explore-resize button{
+    background-color: #00754A;
+    border-radius: 30px;
+    color: white;
+    width: 40%;
+    margin: 50px 0px;
+}
+@media screen and (max-width:768px){
+    .explore-resize button{
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px){
+    .explore-resize button{
+       padding-left:5px;
+       padding-right:5px;
+        width: 80%;
+    }
+}
