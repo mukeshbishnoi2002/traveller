@@ -1,6 +1,7 @@
 import firstImage from '../src/image/imag.png'
 import './App.css';
 import Home from './Home';
+import Nextpage from './Nextpage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
       </div>
       <Home />
+      <Nextpage />
     </div>
   );
 }
