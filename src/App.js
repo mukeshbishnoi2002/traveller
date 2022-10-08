@@ -1,5 +1,6 @@
 import firstImage from '../src/image/imag.png'
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Home />
     </div>
   );
 }

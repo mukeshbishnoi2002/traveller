@@ -1,5 +1,5 @@
-import './Home3.css'
-function Home3() {
+import './Homme.css'
+function Home() {
     return (
         <div>
             <div className="main11">
@@ -35,4 +35,4 @@ function Home3() {
         </div>
     )
 }
-export default Home3
+export default Home
