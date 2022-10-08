@@ -13,6 +13,7 @@
     color: white;
     width: 40%;
     margin: 50px 0px;
+    padding: 20px 0px;
 }
 @media screen and (max-width:768px){
     .explore-resize button{
