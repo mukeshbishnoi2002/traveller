@@ -1,4 +1,4 @@
-import firstImage from '../src/image/imag.jpg'
+import firstImage from '../src/image/imag.png'
 import './App.css';
 
 function App() {
