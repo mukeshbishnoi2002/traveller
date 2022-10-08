@@ -73,7 +73,7 @@ function Nextpage() {
         }
     ];
     return (
-        <Fragment>
+        <div>
             <div className="main4">
                 <div className="main4-size">
                     <div>
@@ -109,7 +109,7 @@ function Nextpage() {
                 </div>
 
             </div>
-        </Fragment>
+        </div>
     )
 }
 
