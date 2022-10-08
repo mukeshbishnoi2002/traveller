@@ -1,0 +1,45 @@
+.quote{
+    width: 100%;
+    background-color: #1B1B1B;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    }
+    .quote-size{
+        width: 80%;
+    }
+    .quote-size button{
+        width: 332px;
+        height: 64px;
+     font-size: 18px;   
+     margin: 50px 0px;
+     border-radius: 30px;
+     background-color: #00754A;
+     box-shadow: 0px 4px 40px rgba(0, 117, 74, 0.19);
+     align-items: center;
+     color: white;
+    }
+    @media screen and (max-width:768px){
+        .quote-size button{
+            width: 300px;
+            height: 64px;
+         font-size: 18px;   
+         margin: 50px 0px;
+         border-radius: 30px;
+         background-color: #00754A;
+         box-shadow: 0px 4px 40px rgba(0, 117, 74, 0.19);
+         align-items: center;
+         color: white;
+        }
+    } 
+    @media screen and (max-width:500px){
+        .quote-size button{
+            width: 100%;
+        }
+        .quote-size{
+            width: 90%;
+        }
+    } 
+    
