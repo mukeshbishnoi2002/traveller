@@ -1,6 +1,6 @@
 import './Nextpagge.css'
 import manalli from "../src/image/manali.png"
-import fire from "../src/images/fire.png"
+import fire from "../src/image/fire.png"
 function Nextpage() {
     let obj = [
         {
