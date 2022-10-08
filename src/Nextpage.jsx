@@ -1,11 +1,11 @@
 import './Nextpagge.css'
-import backgro from "../src/images/tour.png"
+import manalli from "../src/image/manali.png"
 import fire from "../src/images/fire.png"
 function Nextpage() {
     let obj = [
         {
             id: 1,
-            img: backgro,
+            img: manalli,
             fire: fire,
             rupee: "Rs 3,000",
             title: "Simply Kasol",
@@ -22,7 +22,7 @@ function Nextpage() {
         },
         {
             id: 2,
-            img: backgro,
+            img: manalli,
             fire: fire,
             rupee: "Rs 3,000",
             title: "Simply Kasol",
@@ -39,7 +39,7 @@ function Nextpage() {
         },
         {
             id: 3,
-            img: backgro,
+            img: manalli,
             fire: fire,
             rupee: "Rs 3,000",
             title: "Simply Kasol",
@@ -56,7 +56,7 @@ function Nextpage() {
         },
         {
             id: 4,
-            img: backgro,
+            img: manalli,
             fire: fire,
             rupee: "Rs 3,000",
             title: "Simply Kasol",
